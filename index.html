@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hadi Chamas | AI & Machine Learning Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="scroll-progress"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;HC /&gt;</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          Available for Internship &amp; Working Student Roles
+        </div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Hadi Chamas</h1>
+        <h2 class="hero-role">
+          <span id="typed"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          CS student at IU Berlin building production-grade AI pipelines, RAG systems,
+          and ML models. Certified by IBM, AWS &amp; Google.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/hadi-chamas-56443b349/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:hadi.chamas@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="code-card">
+          <div class="code-card-header">
+            <div class="dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="code-tab active">hadi.py</span>
+            <span class="code-tab">rag_agent.py</span>
+          </div>
+          <pre class="code-body"><code><span class="kw">class</span> <span class="cls">HadiChamas</span>:
+    <span class="fn">def</span> <span class="fn">__init__</span>(self):
+        self.name     = <span class="str">"Hadi Chamas"</span>
+        self.location = <span class="str">"Berlin, Germany 🇩🇪"</span>
+        self.degree   = <span class="str">"B.Sc. Computer Science"</span>
+        self.focus    = [
+            <span class="str">"AI / Machine Learning"</span>,
+            <span class="str">"RAG Systems"</span>,
+            <span class="str">"LLMs &amp; Agents"</span>,
+            <span class="str">"Data Science"</span>,
+        ]
+        self.certs    = <span class="num">6</span>
+        self.status   = <span class="str">"Open to work ✅"</span>
+
+    <span class="fn">def</span> <span class="fn">greet</span>(self) <span class="kw">-&gt;</span> <span class="cls">str</span>:
+        <span class="kw">return</span> <span class="str">"Let's build something great!"</span>
+</code></pre>
+          <div class="code-footer">
+            <span class="code-status"><i class="fas fa-circle"></i> Python 3.11</span>
+            <span class="code-status"><i class="fas fa-check-circle" style="color:#28c840"></i> No errors</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-label">01 / About</div>
+      <h2 class="section-title">Who <span class="grad-text">Am I</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>Computer Science student</strong> at IU University of Applied Sciences in Berlin,
+            with a deep focus on artificial intelligence and machine learning. I build end-to-end AI systems —
+            from data ingestion to production-ready deployment.
+          </p>
+          <p>
+            I've built a <strong>RAG agent</strong> using Python and LangChain with vector search
+            and Wikipedia API integration, and delivered IT support to 50+ users at Orap GmbH using ServiceNow.
+            I'm driven by a passion for turning complex problems into elegant, intelligent solutions.
+          </p>
+          <p>
+            Currently seeking <strong>internship or working student roles</strong> in AI, ML, or Data Science in Berlin.
+          </p>
+
+          <div class="info-grid">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><span>Location</span><strong>Berlin, 10315</strong></div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-university"></i>
+              <div><span>University</span><strong>IU Berlin</strong></div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div><span>Phone</span><strong>+49 176 6099 6412</strong></div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-briefcase"></i>
+              <div><span>Status</span><strong class="open-tag">Open to Work</strong></div>
+            </div>
+          </div>
+
+          <div class="langs-section">
+            <h4>Languages</h4>
+            <div class="lang-list">
+              <div class="lang-item">
+                <span class="flag">🇬🇧</span>
+                <div class="lang-bar-wrap">
+                  <div class="lang-label"><span>English</span><span class="lang-level">C2 — Proficient</span></div>
+                  <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+                </div>
+              </div>
+              <div class="lang-item">
+                <span class="flag">🇸🇦</span>
+                <div class="lang-bar-wrap">
+                  <div class="lang-label"><span>Arabic</span><span class="lang-level">Native</span></div>
+                  <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+                </div>
+              </div>
+              <div class="lang-item">
+                <span class="flag">🇩🇪</span>
+                <div class="lang-bar-wrap">
+                  <div class="lang-label"><span>German</span><span class="lang-level">Basic (A1)</span></div>
+                  <div class="lang-bar"><div class="lang-fill" style="width:20%"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div class="stat-card"><span class="stat-num">2+</span><span class="stat-lbl">Years Coding</span></div>
+          <div class="stat-card"><span class="stat-num">6</span><span class="stat-lbl">Certifications</span></div>
+          <div class="stat-card"><span class="stat-num">50+</span><span class="stat-lbl">Users Supported</span></div>
+          <div class="stat-card"><span class="stat-num">20%</span><span class="stat-lbl">Response Time Boost</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-container">
+      <div class="section-label">02 / Skills</div>
+      <h2 class="section-title">Tech <span class="grad-text">Stack</span></h2>
+      <p class="section-sub">Technologies and tools I work with</p>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-brain"></i></div>
+          <h3>AI & Machine Learning</h3>
+          <div class="tag-cloud">
+            <span>Python</span><span>LangChain</span><span>RAG</span>
+            <span>LLMs</span><span>scikit-learn</span><span>NLP</span>
+            <span>Prompt Engineering</span><span>Vector Search</span>
+            <span>Supervised ML</span><span>AI Agents</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Data Science</h3>
+          <div class="tag-cloud">
+            <span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
+            <span>Jupyter</span><span>Data Analysis</span>
+            <span>Regression</span><span>Classification</span>
+            <span>IBM DS Tools</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-code"></i></div>
+          <h3>Web Development</h3>
+          <div class="tag-cloud">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>React</span><span>Node.js</span><span>Express</span>
+            <span>MongoDB</span><span>REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Cloud & IT Support</h3>
+          <div class="tag-cloud">
+            <span>AWS</span><span>AWS Generative AI</span><span>Cloud Ops</span>
+            <span>ServiceNow</span><span>Windows OS</span>
+            <span>Networking</span><span>Cybersecurity</span>
+            <span>Ticket Management</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-container">
+      <div class="section-label">03 / Experience</div>
+      <h2 class="section-title">Work <span class="grad-text">History</span></h2>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-date">Current</div>
+          </div>
+          <div class="tl-line">
+            <div class="tl-dot pulse"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge soft">Current</div>
+            <h3>Shift Leader</h3>
+            <p class="tl-company"><i class="fas fa-building"></i> Frittenwerk — Berlin</p>
+            <ul class="tl-list">
+              <li>Directed daily operations and staff schedules for smooth functioning</li>
+              <li>Handled cash management including opening and closing register procedures</li>
+              <li>Trained new employees, resolved customer issues, and maintained service quality</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Leadership</span><span>Operations</span><span>Training</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-date">Nov 2025<br>feb 2026</div>
+          </div>
+          <div class="tl-line">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge">Internship</div>
+            <h3>IT Support Engineer</h3>
+            <p class="tl-company"><i class="fas fa-building"></i> Orap GmbH — Berlin</p>
+            <ul class="tl-list">
+              <li>Delivered technical support to <strong>50+ end-users</strong>, resolving hardware, software, and network incidents</li>
+              <li>Diagnosed and resolved LAN/Wi-Fi connectivity issues, improving system availability</li>
+              <li>Managed support tickets via <strong>ServiceNow</strong> achieving <strong>20% faster</strong> response times</li>
+              <li>Installed, configured Windows OS, printers, and enterprise software across company devices</li>
+              <li>Documented recurring issues to build internal knowledge base</li>
+            </ul>
+            <div class="tl-tags">
+              <span>ServiceNow</span><span>Windows OS</span><span>Networking</span><span>IT Support</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-label">04 / Projects</div>
+      <h2 class="section-title">Featured <span class="grad-text">Work</span></h2>
+      <p class="section-sub">End-to-end projects from idea to implementation</p>
+      <div class="projects-grid">
+
+        <div class="proj-card hero-proj reveal">
+          <div class="proj-glow"></div>
+          <div class="proj-top">
+            <div class="proj-icon-wrap"><i class="fas fa-robot"></i></div>
+            <div class="proj-links">
+              <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="proj-featured-tag">Featured Project</div>
+          <h3>RAG Agent</h3>
+          <p>Production-style Retrieval-Augmented Generation agent built with Python and LangChain. Enables natural language Q&amp;A over uploaded documents with vector-based retrieval, Wikipedia API as a live knowledge source, and prompt engineering to minimize hallucinations.</p>
+          <div class="proj-tags">
+            <span>Python</span><span>LangChain</span><span>RAG</span>
+            <span>Vector DB</span><span>LLMs</span><span>Wikipedia API</span>
+          </div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-icon-wrap purple"><i class="fas fa-brain"></i></div>
+            <div class="proj-links">
+              <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Autonomous AI Agent</h3>
+          <p>Autonomous AI agent capable of reasoning, planning, and executing multi-step tasks using modern LLM APIs with tool-use capabilities.</p>
+          <div class="proj-tags"><span>AI Agents</span><span>LLM</span><span>Python</span><span>Tool Use</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-icon-wrap green"><i class="fas fa-graduation-cap"></i></div>
+            <div class="proj-links">
+              <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Student Score Predictor</h3>
+          <p>ML model predicting student academic performance from behavioral and demographic features. Full EDA and visualization pipeline.</p>
+          <div class="proj-tags"><span>Python</span><span>scikit-learn</span><span>ML</span><span>Jupyter</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-icon-wrap orange"><i class="fas fa-book"></i></div>
+            <div class="proj-links">
+              <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>BookStore — MERN Stack</h3>
+          <p>Full-stack e-commerce bookstore with CRUD operations, user authentication, and a responsive React UI backed by Node/Express/MongoDB.</p>
+          <div class="proj-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-icon-wrap red"><i class="fas fa-dumbbell"></i></div>
+            <div class="proj-links">
+              <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Fitness Website</h3>
+          <p>Responsive fitness and workout website with exercise guides, workout plans, and a clean modern interface.</p>
+          <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-icon-wrap" style="background:linear-gradient(135deg,#6366f1,#8b5cf6)"><i class="fas fa-user-astronaut"></i></div>
+            <div class="proj-links">
+              <a href="https://github.com/Chamas-cyber/Portfolio" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Personal Portfolio</h3>
+          <p>Fully responsive developer portfolio built from scratch with animated hero section, scroll-reveal effects, typed text, and a dark AI-themed design — showcasing projects, skills, and experience.</p>
+          <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="section-container">
+      <div class="section-label">05 / Certifications</div>
+      <h2 class="section-title">Credentials &amp; <span class="grad-text">Certs</span></h2>
+      <p class="section-sub">Verified learning from world-class institutions</p>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon aws"><i class="fab fa-aws"></i></div>
+          <div class="cert-body">
+            <h4>AWS Educate: Generative AI</h4>
+            <span class="cert-issuer">Amazon Web Services</span>
+            <div class="cert-bar">
+              <span class="cert-dot"></span> Verified
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon aws"><i class="fab fa-aws"></i></div>
+          <div class="cert-body">
+            <h4>AWS Educate: Cloud Ops, Compute, Security &amp; Storage</h4>
+            <span class="cert-issuer">Amazon Web Services</span>
+            <div class="cert-bar"><span class="cert-dot"></span> Verified</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon google"><i class="fas fa-shield-alt"></i></div>
+          <div class="cert-body">
+            <h4>Google Cybersecurity Certificate</h4>
+            <span class="cert-issuer">Google</span>
+            <div class="cert-bar"><span class="cert-dot"></span> Verified</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon ibm"><i class="fas fa-database"></i></div>
+          <div class="cert-body">
+            <h4>IBM Tools for Data Science</h4>
+            <span class="cert-issuer">IBM</span>
+            <div class="cert-bar"><span class="cert-dot"></span> Verified</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon ml"><i class="fas fa-chart-line"></i></div>
+          <div class="cert-body">
+            <h4>Supervised ML: Regression &amp; Classification</h4>
+            <span class="cert-issuer">DeepLearning.AI / Coursera</span>
+            <div class="cert-bar"><span class="cert-dot"></span> Verified</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon anthropic"><i class="fas fa-robot"></i></div>
+          <div class="cert-body">
+            <h4>Introduction to Claude</h4>
+            <span class="cert-issuer">Anthropic / Cowork</span>
+            <div class="cert-bar"><span class="cert-dot"></span> Verified</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-container">
+      <div class="section-label">06 / Education</div>
+      <h2 class="section-title">Academic <span class="grad-text">Background</span></h2>
+      <div class="edu-grid">
+
+        <div class="edu-card current reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <div class="edu-header">
+              <div>
+                <h3>B.Sc. Computer Science</h3>
+                <p class="edu-uni">IU University of Applied Sciences</p>
+              </div>
+              <span class="edu-date">2025 – 2028</span>
+            </div>
+            <p class="edu-desc">Focused on AI, Machine Learning, and software engineering. Currently active and in progress.</p>
+            <span class="edu-badge current-badge">Current</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon prev"><i class="fas fa-university"></i></div>
+          <div class="edu-body">
+            <div class="edu-header">
+              <div>
+                <h3>B.Sc. Computer Science</h3>
+                <p class="edu-uni">SRH University of Applied Sciences</p>
+              </div>
+              <span class="edu-date">2023 – 2024</span>
+            </div>
+            <p class="edu-desc">Foundation studies in computer science. Transferred to IU University for broader AI and ML curriculum.</p>
+            <span class="edu-badge transferred-badge">Transferred</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-label">07 / Contact</div>
+      <h2 class="section-title">Let's <span class="grad-text">Talk</span></h2>
+      <p class="section-sub">Actively seeking internship and working student opportunities in AI, ML, or Data Science in Berlin. Let's connect.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:hadi.chamas@gmail.com" class="contact-row">
+            <div class="c-icon"><i class="fas fa-envelope"></i></div>
+            <div><span>Email</span><strong>hadi.chamas@gmail.com</strong></div>
+            <i class="fas fa-arrow-right c-arrow"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/hadi-chamas-56443b349/" target="_blank" rel="noopener" class="contact-row">
+            <div class="c-icon linkedin"><i class="fab fa-linkedin"></i></div>
+            <div><span>LinkedIn</span><strong>Hadi Chamas</strong></div>
+            <i class="fas fa-arrow-right c-arrow"></i>
+          </a>
+          <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener" class="contact-row">
+            <div class="c-icon github"><i class="fab fa-github"></i></div>
+            <div><span>GitHub</span><strong>Chamas-cyber</strong></div>
+            <i class="fas fa-arrow-right c-arrow"></i>
+          </a>
+          <a href="tel:+4917660996412" class="contact-row">
+            <div class="c-icon phone"><i class="fas fa-phone"></i></div>
+            <div><span>Phone</span><strong>+49 176 6099 6412</strong></div>
+            <i class="fas fa-arrow-right c-arrow"></i>
+          </a>
+        </div>
+
+        <div class="contact-cta-box">
+          <div class="cta-inner">
+            <div class="cta-status">
+              <span class="status-dot"></span> Available for work
+            </div>
+            <h3>Ready to contribute to your team</h3>
+            <p>Whether it's an AI/ML internship, data science role, or working student position — I'm open to opportunities in Berlin.</p>
+            <a href="mailto:hadi.chamas@gmail.com" class="btn btn-primary full-btn">
+              <i class="fas fa-paper-plane"></i> Send Me an Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">&lt;HC /&gt;</span>
+      <p>Designed &amp; Built by <span class="grad-text">Hadi Chamas</span> — Berlin 2025</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Chamas-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/hadi-chamas-56443b349/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:hadi.chamas@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
