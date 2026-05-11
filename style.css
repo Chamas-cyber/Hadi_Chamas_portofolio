@@ -593,4 +593,34 @@ footer p { font-size: 0.85rem; color: var(--muted); }
   .info-grid { grid-template-columns: 1fr; }
   .edu-card { flex-direction: column; }
   .hero-actions { flex-direction: column; }
+  section:not(#hero) { padding: 4rem 1.25rem; }
+  .hero-inner { padding: 6rem 1.25rem 3rem; gap: 2.5rem; }
+  .hero-actions .btn { width: 100%; justify-content: center; }
+  .code-body { font-size: 0.74rem; padding: 1rem 1.25rem; }
+  .footer-inner { flex-direction: column; text-align: center; align-items: center; }
+  .contact-grid { gap: 1.25rem; }
+  .about-grid { gap: 2rem; }
+}
+
+@media (max-width: 480px) {
+  .nav-container { padding: 0 1rem; }
+  .hero-inner { padding: 5.5rem 1rem 2.5rem; gap: 2rem; }
+  section:not(#hero) { padding: 3rem 1rem; }
+  .hero-name { font-size: clamp(2rem, 11vw, 2.8rem); }
+  .section-title { font-size: clamp(1.6rem, 7vw, 2rem); }
+  .code-body { font-size: 0.68rem; padding: 0.9rem 1rem; }
+  .code-card-header { padding: 0.7rem 1rem; }
+  .tl-card { padding: 1.25rem; }
+  .proj-card { padding: 1.25rem; }
+  .cert-card { padding: 1rem; }
+  .edu-card { padding: 1.25rem; }
+  .contact-cta-box { padding: 1.5rem; }
+  .stat-num { font-size: 1.8rem; }
+  .stat-card { padding: 1rem 0.75rem; }
+  .about-right { display: grid; grid-template-columns: 1fr 1fr; flex-direction: unset; }
+  .section-sub { margin-bottom: 2rem; }
+  .skill-card { padding: 1.5rem; }
+  .contact-row { padding: 0.9rem 1rem; }
+  .contact-row > div strong { font-size: 0.82rem; }
+  .cta-inner h3 { font-size: 1.1rem; }
 }

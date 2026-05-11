@@ -62,7 +62,7 @@ portfolio/
 
 ## Contact
 
-- Email: [hadi.chamas@gmail.com](mailto:hadi.chamas@gmail.com)
+- Email: [hadi.shamas41@gmail.com](mailto:hadi.shamas41@gmail.com)
 - LinkedIn: [linkedin.com/in/hadi-chamas-56443b349](https://www.linkedin.com/in/hadi-chamas-56443b349/)
 - GitHub: [github.com/Chamas-cyber](https://github.com/Chamas-cyber)
 - Phone: +49 176 6099 6412 · Berlin, Germany
